@@ -1,0 +1,140 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    /*font-size: 62.5%;*/
+}
+h1{
+    text-align: center;
+    font-size: 55px;
+}
+
+.blue{
+    color: #037BC0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.inicio > li{
+    text-align: center;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    width: 11em;
+    margin-left: 20px;
+    margin-right: 8px;
+}
+
+
+.texto-centro{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.catalogo-prin{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.secciones{
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.img-producto{
+    max-width: auto;
+}
+
+.texto-producto{
+    text-align: center;
+    color: #fff;
+    padding: 5rem;
+}
+
+.texto-producto h3{
+    margin: 0;
+}
+
+.texto-producto p{
+    margin: 0 0 .5rem 0;
+}
+
+.price{
+    font-size: 2.8rem;
+}
+
+.texto-producto a{
+    background-color: rgb(61, 209, 3);
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+.texto-producto a:hover{
+    background-color: rgb(4, 173, 4);
+    transition: 0.3s;
+}
+
+.secciones{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+}
+
+.catalogo{
+    background-color: #037BC0;
+}
+
+.catalogo:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 7;
+    margin-bottom: 0.6rem;
+}
+
+.catalogo:nth-child(2){
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-top: 0.2rem;
+    margin-right: 0.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.catalogo:nth-child(3){
+    grid-column-start: 4;
+    grid-column-end: 7;
+    margin-top: 0.2rem;
+    margin-left: 0.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.catalogo:nth-child(4){
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: 0.2rem;
+    margin-right: 0.4rem;
+}
+
+.catalogo:nth-child(5){
+    grid-column-start: 3;
+    grid-column-end: 5;
+    margin-top: 0.2rem;
+    margin-left: 0.4rem;
+    margin-right: 00.4rem;
+}
+
+.catalogo:nth-child(6){
+    grid-column-start: 5;
+    grid-column-end: 7;
+    margin-top: 0.2rem;
+    margin-left: 0.4rem;
+}
+
+
+/* Footer*/
+.footer{
+    column-count: 3;
+}
+
